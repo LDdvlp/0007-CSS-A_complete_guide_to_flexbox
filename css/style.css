@@ -1,0 +1,194 @@
+body {
+	background-color: Gainsboro;
+}
+
+.main_flex_container {
+  display: flex;
+  background-color: LightGray;
+  border: 3px dashed DarkRed;
+  display: flex;
+  flex-direction: row;
+}
+
+.nowrap  { 
+  flex-wrap: nowrap;
+}
+
+.wrap    { 
+  flex-wrap: wrap;
+}  
+
+.wrap-reverse         { 
+  flex-wrap: wrap-reverse;
+} 
+
+
+.main_flex_container_item {
+  display: flex;
+  color: Black;
+  background-color: Gold;
+  height: 200px;
+  width: 200px;
+  border: 2px dotted SteelBlue;
+}
+
+.main_flex_container_item_flow_null {
+}
+.main_flex_container_item_flex_wrap_n {
+  flex-wrap: nowrap;
+}
+.main_flex_container_item_flex_wrap_w {
+  flex-wrap: wrap;
+}
+.main_flex_container_item_flex_wrap_wr {
+  flex-wrap: wrap-reverse;
+}
+.main_flex_container_item_flex_direction_r {
+  flex-direction: row;
+}
+.main_flex_container_item_flex_direction_rr {
+  flex-direction: row-reverse;
+}
+.main_flex_container_item_flex_direction_c {
+  flex-direction: column;
+}
+.main_flex_container_item_flex_direction_cr {
+  flex-direction: column-reverse;
+}
+.main_flex_container_item_flow_rn {
+  /*
+  flex-direction: row;
+  flex-wrap: nowrap;
+  */
+  flex-flow: row nowrap;
+}
+.main_flex_container_item_flow_rw {
+  /*
+  flex-direction: row;
+  flex-wrap: wrap;
+  */
+  flex-flow: row wrap;
+}
+.main_flex_container_item_flow_rwr {
+  /*
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  */
+  flex-flow: row wrap-reverse;
+}
+.main_flex_container_item_flow_rrn {
+  /*
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  */
+  flex-flow: row-reverse nowrap;
+}
+.main_flex_container_item_flow_rrw {
+  /*
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  */
+  flex-flow: row-reverse wrap;
+}
+.main_flex_container_item_flow_rrwr {
+  /*
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  */
+  flex-flow: row-reverse wrap-reverse;
+}
+.main_flex_container_item_flow_cn {
+  /*
+  flex-direction: column;
+  flex-wrap: nowrap;
+  */
+  flex-flow: column nowrap;
+}
+.main_flex_container_item_flow_cw {
+  /*
+  flex-direction: column;
+  flex-wrap: wrap;
+  */
+  flex-flow: column wrap;
+}
+.main_flex_container_item_flow_cwr {
+  /*
+  flex-direction: column;
+  flex-wrap: wrap-reverse;
+  */
+  flex-flow: column wrap-reverse;
+}
+.main_flex_container_item_flow_crn {
+  /*
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
+  */
+  flex-flow: column-reverse nowrap;
+}
+.main_flex_container_item_flow_crw {
+  /*
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  */
+  flex-flow: column-reverse wrap;
+}
+.main_flex_container_item_flow_crwr {
+  /*
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
+  */
+  flex-flow: column-reverse wrap-reverse;
+}
+
+.flex_item {
+  background-color: Orange;
+  border: 1px dotted Crimson;
+  height: 30px;
+  width: 30px;
+}
+
+.main_flex_container_item_2 {
+  display: flex;
+  color: Black;
+  background-color: Gold;
+  height: 200px;
+  width: 140px;
+  border: 2px dotted SteelBlue;
+}
+
+.main_flex_container_item_align_content_justify_content_null {
+}
+
+.main_flex_container_item_justify_content_fs {
+  justify-content: flex-start;
+}
+.main_flex_container_item_justify_content_fe {
+  justify-content: flex-end;
+}
+.main_flex_container_item_justify_content_c {
+  justify-content: center;
+}
+.main_flex_container_item_justify_content_sb {
+  justify-content: space-between;
+}
+.main_flex_container_item_justify_content_sa {
+  justify-content: space-around;
+}
+.main_flex_container_item_justify_content_se {
+  justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.nodec {
+	text-decoration: none;
+}

@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>A Complete Guide to Flexbox | Accueil</title>
+		<meta name="description" content="CSS Grid Layout">
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>  
+	</head>
+
+	<body>
+		
+		<header id="top">
+			<h1>A Complete Guide to Flexbox <sup><a href="#ref" class="nodec">*</a></sup></h1>
+		</header>
+
+		<main>
+
+			<h2>A - Flex Container : Properties for the Parent</h2>
+		
+			<hr>
+		
+			<div class="main_flex_container wrap">
+
+				<div class="main_flex_container_item">
+					<p>flex-flow:<br>&ltflex-direction&gt / &ltflex-wrap&gt</p>
+				</div>
+				
+				<div class="main_flex_container_item">
+					<p>flex-wrap:<br>nowrap;<br>(default)</p>
+				</div>
+				
+				<div class="main_flex_container_item">
+					<p>flex-wrap:<br>wrap;</p>
+				</div>
+				
+				<div class="main_flex_container_item">
+					<p>flex-wrap:<br>wrap-reverse;</p>
+				</div>
+
+				<div class="main_flex_container_item main_flex_container_item_flow_null">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>					
+
+				<div class="main_flex_container_item main_flex_container_item_flex_wrap_n">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>			
+
+				<div class="main_flex_container_item main_flex_container_item_flex_wrap_w">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>	
+
+				<div class="main_flex_container_item main_flex_container_item_flex_wrap_wr">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>	
+
+				<div class="main_flex_container_item">
+					<p>flex-direction:<br>row;<br>(default)</p>
+				</div>
+
+				<div class="main_flex_container_item">
+					<p><em>flex-flow:<br>row nowrap;</em></p>
+				</div>
+
+				<div class="main_flex_container_item">
+					<p><em>flex-flow:<br>row wrap;</em></p>
+				</div>
+				
+				<div class="main_flex_container_item">
+					<p><em>flex-flow:<br>row wrap-reverse;</em></p>
+				</div>
+
+				<div class="main_flex_container_item main_flex_container_item_flex_direction_r">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>	
+
+				<div class="main_flex_container_item main_flex_container_item_flow_rn">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>	
+
+				<div class="main_flex_container_item main_flex_container_item_flow_rw">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>
+
+				<div class="main_flex_container_item main_flex_container_item_flow_rwr">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>	
+
+				<div class="main_flex_container_item">
+					<p>flex-direction:<br>row-reverse;</p>
+				</div>
+
+				<div class="main_flex_container_item">
+					<p><em>flex-flow:<br>row-reverse nowrap;</em></p>
+				</div>
+
+				<div class="main_flex_container_item">
+					<p><em>flex-flow:<br>row-reverse wrap;</em></p>
+				</div>
+				
+				<div class="main_flex_container_item">
+					<p><em>flex-flow:<br>row-reverse wrap-reverse;</em></p>
+				</div>
+
+				<div class="main_flex_container_item main_flex_container_item_flex_direction_rr">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>
+
+				<div class="main_flex_container_item main_flex_container_item_flow_rrn">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>	
+
+				<div class="main_flex_container_item main_flex_container_item_flow_rrw">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>	
+
+				<div class="main_flex_container_item main_flex_container_item_flow_rrwr">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>
+	
+				<div class="main_flex_container_item">
+					<p>flex-direction:<br>column;</p>
+				</div>
+
+				<div class="main_flex_container_item">
+					<p><em>flex-flow:<br>column nowrap;</em></p>
+				</div>
+
+				<div class="main_flex_container_item">
+					<p><em>flex-flow:<br>column wrap;</em></p>
+				</div>
+				
+				<div class="main_flex_container_item">
+					<p><em>flex-flow:<br>column wrap-reverse;</em></p>
+				</div>	
+
+				<div class="main_flex_container_item main_flex_container_item_flex_direction_c">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>
+
+				<div class="main_flex_container_item main_flex_container_item_flow_cn">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>
+
+				<div class="main_flex_container_item main_flex_container_item_flow_cw">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>	
+				<div class="main_flex_container_item main_flex_container_item_flow_cwr">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>
+
+				<div class="main_flex_container_item">
+					<p>flex-direction:<br>column-reverse;</p>
+				</div>
+
+				<div class="main_flex_container_item">
+					<p><em>flex-flow:<br>column-reverse nowrap;</em></p>
+				</div>
+
+				<div class="main_flex_container_item">
+					<p><em>flex-flow:<br>column-reverse wrap;</em></p>
+				</div>
+				
+				<div class="main_flex_container_item">
+					<p><em>flex-flow:<br>column-reverse wrap-reverse;</em></p>
+				</div>
+
+				<div class="main_flex_container_item main_flex_container_item_flex_direction_cr">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>		
+
+				<div class="main_flex_container_item main_flex_container_item_flow_crn">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>
+
+				<div class="main_flex_container_item main_flex_container_item_flow_crw">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>	
+
+				<div class="main_flex_container_item main_flex_container_item_flow_crwr">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>
+
+			</div>
+
+			<hr>
+
+
+
+
+
+
+  justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
+<br>
+  align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+
+
+
+
+	
+			<div class="main_flex_container wrap">
+
+				<div class="main_flex_container_item_2">
+					<p>000</p>
+				</div>
+				
+				<div class="main_flex_container_item_2">
+					<p>  justify-content:<br>flex-start;</p>
+				</div>
+				<div class="main_flex_container_item_2">
+					<p>  justify-content:<br>flex-end;</p>
+				</div>
+				<div class="main_flex_container_item_2">
+					<p>  justify-content:<br>center;</p>
+				</div>
+				<div class="main_flex_container_item_2">
+					<p>  justify-content:<br>space-between;</p>
+				</div>
+				<div class="main_flex_container_item_2">
+					<p>  justify-content:<br>space-around;</p>
+				</div>
+				<div class="main_flex_container_item_2">
+					<p>  justify-content:<br>space-evenly;</p>
+				</div>
+
+				<div class="main_flex_container_item_2 main_flex_container_item_flow_rw main_flex_container_item_align_content_justify_content_null">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>					
+				<div class="main_flex_container_item_2 main_flex_container_item_flow_rw main_flex_container_item_justify_content_fs">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>					
+				<div class="main_flex_container_item_2 main_flex_container_item_flow_rw main_flex_container_item_justify_content_fe">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>					
+				<div class="main_flex_container_item_2 main_flex_container_item_flow_rw main_flex_container_item_justify_content_c">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>					
+				<div class="main_flex_container_item_2 main_flex_container_item_flow_rw main_flex_container_item_justify_content_sb">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>					
+				<div class="main_flex_container_item_2 main_flex_container_item_flow_rw main_flex_container_item_justify_content_sa">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>					
+				<div class="main_flex_container_item_2 main_flex_container_item_flow_rw main_flex_container_item_justify_content_se">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>
+				
+				<div class="main_flex_container_item_2">
+					<p>  align-content:<br>flex-start;</p>
+				</div>
+				<div class="main_flex_container_item_2">
+					<p>  align-content:<br>flex-start;</p>
+				</div>
+				<div class="main_flex_container_item_2">
+					<p>  align-content:<br>flex-start;</p>
+				</div>
+				<div class="main_flex_container_item_2">
+					<p>  align-content:<br>flex-start;</p>
+				</div>
+				<div class="main_flex_container_item_2">
+					<p>  align-content:<br>flex-start;</p>
+				</div>
+				<div class="main_flex_container_item_2">
+					<p>  align-content:<br>flex-start;</p>
+				</div>
+				
+
+				<div class="main_flex_container_item_2 main_flex_container_item_flow_null">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>					
+
+				<div class="main_flex_container_item_2 main_flex_container_item_flow_null">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>					
+
+				<div class="main_flex_container_item_2 main_flex_container_item_flow_null">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>					
+
+				<div class="main_flex_container_item_2 main_flex_container_item_flow_null">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>					
+
+				<div class="main_flex_container_item_2 main_flex_container_item_flow_null">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>					
+
+				<div class="main_flex_container_item_2 main_flex_container_item_flow_null">
+							<div class="flex_item">1</div>
+							<div class="flex_item">2</div>
+							<div class="flex_item">3</div>
+							<div class="flex_item">4</div>
+							<div class="flex_item">5</div>
+							<div class="flex_item">6</div>
+							<div class="flex_item">7</div>
+							<div class="flex_item">8</div>
+							<div class="flex_item">9</div>
+				</div>					
+
+
+			</div>		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+			<div class="flex_container_fd_r nowrap">
+				<div class="flex_item">1</div>
+				<div class="flex_item">2</div>
+				<div class="flex_item">3</div>
+				<div class="flex_item">4</div>
+				<div class="flex_item">5</div>
+				<div class="flex_item">6</div>
+				<div class="flex_item">7</div>
+				<div class="flex_item">8</div>
+				<div class="flex_item">9</div>
+			</div>
+
+			<hr>
+	
+			<div class="flex_container_fd_c">
+				<div class="flex_item">1</div>
+				<div class="flex_item">2</div>
+				<div class="flex_item">3</div>
+				<div class="flex_item">4</div>
+				<div class="flex_item">5</div>
+				<div class="flex_item">6</div>
+				<div class="flex_item">7</div>
+				<div class="flex_item">8</div>
+				<div class="flex_item">9</div>
+			</div>
+			
+			<hr>
+
+			<div class="flex_container_fd_rr">
+				<div class="flex_item">1</div>
+				<div class="flex_item">2</div>
+				<div class="flex_item">3</div>
+				<div class="flex_item">4</div>
+				<div class="flex_item">5</div>
+				<div class="flex_item">6</div>
+				<div class="flex_item">7</div>
+				<div class="flex_item">8</div>
+				<div class="flex_item">9</div>
+			</div>
+			
+			<hr>
+
+			<div class="flex_container_fd_cr">
+				<div class="flex_item">1</div>
+				<div class="flex_item">2</div>
+				<div class="flex_item">3</div>
+				<div class="flex_item">4</div>
+				<div class="flex_item">5</div>
+				<div class="flex_item">6</div>
+				<div class="flex_item">7</div>
+				<div class="flex_item">8</div>
+				<div class="flex_item">9</div>
+			</div>
+
+			<hr>
+
+
+
+-->
+			
+
+
+
+
+
+
+
+		</main>
+
+		<footer>
+			<hr>
+			<p id="ref"><em>Source : <sup>*</sup><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank" class="nodec">CSS-TRICKS : A Complete Guide to Flexbox </a><a href="#top" class="nodec">&#8617;</a></em></p>
+			<hr>
+		</footer>
+
+	</body>
+
+</html>
